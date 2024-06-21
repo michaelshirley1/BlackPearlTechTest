@@ -1,0 +1,106 @@
+
+.ParentDiv{
+  margin:50px;
+}
+
+.PeopleListParent{
+  overflow-y: scroll;
+  padding-left:10px;
+  height: 70vh;
+  direction:rtl;
+}
+
+.PeopleList{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.Person{
+  padding: 2px;
+  border-top: 1px solid rgb(206, 206, 206);
+  display: flex;
+  width:15vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Person:hover{
+  background-color: rgb(233, 233, 233);
+}
+
+.ListParent{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.PropertyTile{
+  flex-grow: 1;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid rgb(206, 206, 206);
+  height:70vh;
+}
+
+.PropertyValues{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  width: 55%;
+  gap: 15px;
+}
+
+.Property{
+  padding: 10px;
+}
+
+.PropertyContainer{
+  gap:50px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.Selected{
+  background-color: rgb(206, 206, 206);
+}
+
+.Preview{
+  width:35%;
+  margin: 20px;
+}
+
+.DetailsFormat{
+  width: 100%;
+  margin:0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.AddressPhoneFormat{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.AddressPhone{
+  text-align: center;
+  padding-right: 5px !important;
+}
+
+.SignatureText{
+  margin: 0;
+}
+
+.PlaceHolderText{
+  text-align: center; 
+  margin: auto; 
+}
